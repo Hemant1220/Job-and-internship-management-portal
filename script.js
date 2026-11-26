@@ -3,5 +3,5 @@ document.getElementById("homeSearch").addEventListener("submit", function (event
   const keyword = document.getElementById("keyword").value.trim();
   const location = document.getElementById("location").value.trim();
   const params = new URLSearchParams({ q: keyword, location: location });
-  window.location.href = "../job-listings/jobs.html?" + params.toString();
+  window.location.href = "jobs.html?" + params.toString();
 });
