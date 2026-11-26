@@ -1,3 +1,44 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sign up | CareerNest</title><link rel="stylesheet" href="style.css"></head><body>
-<header><a class="logo" href="../frontend-home/index.html">CareerNest</a><a href="../frontend-home/index.html">← Back to home</a></header>
-<main class="auth-wrap"><form class="auth-card" id="signupForm"><p class="tag">JOIN CAREERNEST</p><h1>Create an account</h1><label>Full name</label><input id="name" type="text" placeholder="Your name" required><label>Email address</label><input id="email" type="email" placeholder="you@example.com" required><label>I am a</label><select id="role"><option>Student / Job seeker</option><option>Recruiter</option></select><label>Password</label><input id="password" type="password" minlength="6" placeholder="At least 6 characters" required><button class="primary" type="submit">Create account</button><p id="message" class="message"></p><p class="bottom">Already registered? <a href="login.html">Login</a></p></form></main><script src="auth.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up | CareerNest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">CareerNest</a
+      ><a href="index.html">← Back to home</a>
+    </header>
+    <main class="auth-wrap">
+      <form class="auth-card" id="signupForm">
+        <p class="tag">JOIN CAREERNEST</p>
+        <h1>Create an account</h1>
+        <label>Full name</label
+        ><input id="name" type="text" placeholder="Your name" required /><label
+          >Email address</label
+        ><input
+          id="email"
+          type="email"
+          placeholder="you@example.com"
+          required
+        /><label>I am a</label
+        ><select id="role">
+          <option>Student / Job seeker</option>
+          <option>Recruiter</option></select
+        ><label>Password</label
+        ><input
+          id="password"
+          type="password"
+          minlength="6"
+          placeholder="At least 6 characters"
+          required
+        /><button class="primary" type="submit">Create account</button>
+        <p id="message" class="message"></p>
+        <p class="bottom">Already registered? <a href="login.html">Login</a></p>
+      </form>
+    </main>
+    <script src="auth.js"></script>
+  </body>
+</html>

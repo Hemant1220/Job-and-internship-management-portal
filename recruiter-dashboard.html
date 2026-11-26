@@ -1,6 +1,54 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Recruiter Dashboard | CareerNest</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="top"><a class="logo" href="../frontend-home/index.html">CareerNest</a><nav><a href="../job-listings/jobs.html">Browse jobs</a><a href="../auth-pages/login.html">Login</a></nav></header>
-<main class="wrap"><p class="tag">RECRUITER SPACE</p><h1>Recruiter Dashboard</h1><p class="muted">A simple sample screen to manage your hiring activity.</p>
-<section class="stats"><article><span>Active jobs</span><strong>3</strong></article><article><span>Applications</span><strong>24</strong></article><article><span>Shortlisted</span><strong>6</strong></article></section>
-<section class="panel"><h2>Post a new job</h2><form id="postForm" class="post-form"><label>Job title<input id="jobTitle" required placeholder="e.g. Frontend Developer"></label><label>Company<input id="company" required placeholder="Company name"></label><label>Location<input id="jobLocation" required placeholder="Remote / City"></label><button class="button" type="submit">Preview job post</button><p id="postMessage"></p></form></section>
-</main><footer>CareerNest · Frontend demo dashboard</footer><script src="dashboard.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruiter Dashboard | CareerNest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="logo" href="index.html">CareerNest</a>
+      <nav>
+        <a href="jobs.html">Browse jobs</a
+        ><a href="login.html">Login</a>
+      </nav>
+    </header>
+    <main class="wrap">
+      <p class="tag">RECRUITER SPACE</p>
+      <h1>Recruiter Dashboard</h1>
+      <p class="muted">
+        A simple sample screen to manage your hiring activity.
+      </p>
+      <section class="stats">
+        <article><span>Active jobs</span><strong>3</strong></article>
+        <article><span>Applications</span><strong>24</strong></article>
+        <article><span>Shortlisted</span><strong>6</strong></article>
+      </section>
+      <section class="panel">
+        <h2>Post a new job</h2>
+        <form id="postForm" class="post-form">
+          <label
+            >Job title<input
+              id="jobTitle"
+              required
+              placeholder="e.g. Frontend Developer" /></label
+          ><label
+            >Company<input
+              id="company"
+              required
+              placeholder="Company name" /></label
+          ><label
+            >Location<input
+              id="jobLocation"
+              required
+              placeholder="Remote / City" /></label
+          ><button class="button" type="submit">Preview job post</button>
+          <p id="postMessage"></p>
+        </form>
+      </section>
+    </main>
+    <footer>CareerNest · Frontend demo dashboard</footer>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

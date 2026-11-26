@@ -1,8 +1,48 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Jobs | CareerNest</title><link rel="stylesheet" href="style.css"></head>
-<body>
-<header class="navbar"><a class="logo" href="../frontend-home/index.html">CareerNest</a><nav><a href="../frontend-home/index.html">Home</a><a class="active" href="jobs.html">Jobs</a><a href="internships.html">Internships</a><a href="../auth-pages/login.html">Login</a></nav></header>
-<main class="container"><p class="tag">OPPORTUNITIES</p><h1>Find your next job</h1><p class="muted">Browse sample job listings and use search to narrow them down.</p>
-<div class="filters"><input id="searchInput" placeholder="Search role or company"><select id="locationFilter"><option value="">All locations</option><option>Remote</option><option>Bengaluru</option><option>Delhi</option><option>Noida</option></select><select id="typeFilter"><option value="">All types</option><option>Full-time</option><option>Part-time</option></select></div>
-<div id="jobList" class="job-list"></div><p id="emptyMessage" class="muted" hidden>No matching jobs found. Try another search.</p></main>
-<footer>CareerNest · Demo job listings</footer><script src="jobs.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobs | CareerNest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="logo" href="index.html">CareerNest</a>
+      <nav>
+        <a href="index.html">Home</a
+        ><a class="active" href="jobs.html">Jobs</a
+        ><a href="internships.html">Internships</a
+        ><a href="login.html">Login</a>
+      </nav>
+    </header>
+    <main class="container">
+      <p class="tag">OPPORTUNITIES</p>
+      <h1>Find your next job</h1>
+      <p class="muted">
+        Browse sample job listings and use search to narrow them down.
+      </p>
+      <div class="filters">
+        <input id="searchInput" placeholder="Search role or company" /><select
+          id="locationFilter"
+        >
+          <option value="">All locations</option>
+          <option>Remote</option>
+          <option>Bengaluru</option>
+          <option>Delhi</option>
+          <option>Noida</option></select
+        ><select id="typeFilter">
+          <option value="">All types</option>
+          <option>Full-time</option>
+          <option>Part-time</option>
+        </select>
+      </div>
+      <div id="jobList" class="job-list"></div>
+      <p id="emptyMessage" class="muted" hidden>
+        No matching jobs found. Try another search.
+      </p>
+    </main>
+    <footer>CareerNest · Demo job listings</footer>
+    <script src="jobs.js"></script>
+  </body>
+</html>
